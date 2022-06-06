@@ -1,0 +1,21 @@
+{
+  "name": "topixdigia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node start.js",
+    "test": "NODE_ENV=test jest --verbose --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "supertest": "^6.2.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "uuid": "^8.3.2"
+  }
+}
